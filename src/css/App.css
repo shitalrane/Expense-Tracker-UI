@@ -1,0 +1,34 @@
+@media (min-width: 1024px){
+  body {
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+body .register {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to right,
+      pink 0%,
+      pink 50%,
+      paleturquoise 50%,
+      paleturquoise 100%);
+}
+
+.app {
+  display: flex;
+}
+
+
+.exp-div {
+  display: block;
+}
+
+.form {
+  background-color: white;
+  padding: 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.div-translate-y-20 {
+  transform: translateY(10%);
+}
+}
