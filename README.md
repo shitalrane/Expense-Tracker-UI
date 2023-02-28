@@ -6,8 +6,10 @@ Prerequisites for Expense-tracker-
 
 1) Run "npm i" to install the dependencies.
 
-2) Copy and save as .env. Set API host in the .env file if necessary.
+2) Finally run the app with npm start.
 
-3) Finally run the app with npm start.
+3) The app should be running at http://localhost:3000
 
-4) The app should be running at http://localhost:3000
+**TO-DO**
+1) Study and implement better cache mechanism
+2) Mobile testing and changes if required
