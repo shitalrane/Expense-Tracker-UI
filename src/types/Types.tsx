@@ -1,5 +1,5 @@
 export type User = {
-    id?: number,
+    id?: string,
     firstName: string,
     lastName: string,
     emailId: string,
@@ -8,7 +8,7 @@ export type User = {
 }
 
 export type Expense = {
-    id?: number,
+    id?: string,
     reason: string
     cost: number,
     date: string

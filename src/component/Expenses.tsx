@@ -9,7 +9,7 @@ import { useNavigate } from "react-router";
 type Properties = {
     expenses: Expense[]
     updateExpenses: Function
-    userId?: number
+    userId?: string
     showAddEditExpense: Function,
 }
 
